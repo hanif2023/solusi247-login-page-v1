@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-solusi247 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper-solusi247 {
+    width: 100rem;
+    height: 70rem;
+    background-color: #F9FAFC;
+    /* Background Color Form */
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-solusi247 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 100;
+}
+
+.banner-solusi247 p {
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 700;
+    transition: font-size 0.8s ease;
+    
+}
+
+.banner-solusi247 p span {
+    font-weight: 400;
+    /** text-transform: uppercase; **/
+    /**
+    background: -webkit-linear-gradient(135deg, #0085B8, #00CB67);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    **/
+}
+
+.banner-solusi247 p span b {
+    /**
+    background: linear-gradient(to left, #0085B8, #00CB67);
+    border-radius: 5px;
+    color: #F9FAFC;
+    **/
+}
+
+.bg-solusi247 hr {
+    border: 1px solid #F9FAFC;
+    width: 200%;
+    position: absolute;
+    top: 40%;
+    left: -50%;
+    transform: translateX(0%);
+}
+
+.bg-solusi247 {
+    width: 100%;
+    height: 100%;
+    background-color: #F9FAFC;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    transition: width 1.5s cubic-bezier(.19, 1, .22, 1);
+}
+
+.bg-solusi247 button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 18rem;
+    height: 5rem;
+    padding-left: 25px;
+    background-color: transparent;
+    border: 0.1rem solid #A1A6AC;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #71757E;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.bg-solusi247 button:hover {
+    color: #205E75;
+    border: 0.1rem solid #205E75;
+}
+
+.bg-solusi247 button:focus {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 30px 0px;
+}
+
+/* CSS untuk tombol Employee Login */
+.bg-solusi247 button:after {
+    content: "\f138"; /* Kode Unicode untuk ikon bx bx-chevrons-right */
+    font-family: 'Boxicons'; /* Gantilah dengan font yang sesuai jika diperlukan */
+    margin-left: 10px; /* Spasi antara teks dan ikon */
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.login-form-solusi247 {
+    width: 60rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    background-color: #FFFFFF;
+}
+
+.login-form-solusi247 .login-title-solusi247 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 60px;
+}
+
+.input-group-solusi247 {
+    position: relative;
+}
+
+.input-group-solusi247 input {
+    width: 30rem;
+    height: 5rem;
+    padding: 1rem 1rem 1rem 5rem;
+    background-color: #F9FAFC;
+    border: 0.1rem solid #A1A6AC;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #71757E;
+}
+
+.input-group-solusi247 i {
+    position: absolute;
+    top: 25%;
+    left: 2rem;
+    font-size: 1.5rem;
+    color: #71757E;
+}
+
+.input-group-solusi247 input:focus {
+    border-color: #205E75;
+    background-color: #F9FAFC !important;
+    box-shadow: none !important;
+}
+
+.input-group-solusi247 i:focus {
+    color: #205E75;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 20%;
+    left: 25rem;
+    cursor: pointer;
+    color: #71757E;
+    font-size: 2px !important;
+}
+
+.login-form-solusi247 button {
+    width: 16rem;
+    height: 5rem;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #F9FAFC;
+    margin-top: 20px;
+
+    transition: all 0.3s;
+}
+
+.login-form-solusi247 button:hover {
+    background-color: #F9FAFC;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.container-solusi247.change .bg-solusi247 {
+    width: 40%;
+}
+
+.banner-solusi247 p.change-font {
+    font-size: 2.5rem !important;
+    transition: font-size 0.8s;
+}
+
+.container-solusi247.change .bg-solusi247 button {
+    width: 20rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #205E75;
+    border: 0.1rem solid #205E75;
+}
+
+.container-solusi247.change .bg-solusi247 hr {
+    border: 1px solid #F9FAFC;
+    width: 150%;
+    position: absolute;
+    top: 40%;
+    left: -50%;
+    transform: translateX(0%);
+}
+
+/*==================== RESPONSIVE ====================*/
+
+@media screen and (max-width: 768px) {
+
+    .form-wrapper-solusi247 {
+        width: 85%;
+        height: 500px;
+    }
+
+    .banner-solusi247 {
+        top: 35%;
+    }
+
+    .banner-solusi247 p {
+        font-size: 2rem;
+    }
+
+    .bg-solusi247 hr {
+        top: 20%;
+        width: 200%;
+        border: 1px solid #F9FAFC;
+    }
+
+    .bg-solusi247 {
+        height: 100px;
+    }
+
+    .bg-solusi247 button {
+        display: none;
+    }
+
+    .login-form-solusi247 {
+        width: 100%;
+        left: auto;
+        margin-top: 40px;
+    }
+
+    .login-form-solusi247 .login-title-solusi247 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-align: center;
+        color: #000000;
+        padding-bottom: 50px;
+    }
+
+    .input-group-solusi247 input {
+        width: 25rem;
+        height: 4rem;
+    }
+
+    .input-group-solusi247 i {
+        top: 20%;
+    }
+
+    .password-toggle {
+        position: absolute;
+        top: 12%;
+        left: 20rem;
+        cursor: pointer;
+        color: #71757E;
+        font-size: 2px !important;
+    }
+
+    .login-form-solusi247 button {
+        width: 25rem;
+        height: 4rem;
+        background-color: #000000;
+        border: none;
+        border-radius: 10px;
+        letter-spacing: 0.1rem;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        color: #F9FAFC;
+        transition: all 0.3s;
+    }
+
+    .container-solusi247.change .bg-solusi247 {
+        position: relative;
+        width: 100%;
+    }
+
+    .banner-solusi247 p.change-font {
+        font-size: 2rem !important;
+        transition: font-size 0.8s;
+    }
+}
